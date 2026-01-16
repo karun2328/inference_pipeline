@@ -1,4 +1,4 @@
-## Why this matters
+# Why this matters
 Production inference performance is often limited by runtime overhead, batching behavior, and hardware constraints—not just model architecture.
 This project isolates those factors empirically and shows why assumptions like “INT8 is always faster” or “TensorRT always wins” are hardware- and workload-dependent.
 
